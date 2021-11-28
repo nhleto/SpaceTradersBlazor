@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceTradersBlazor", "SpaceTradersBlazor.csproj", "{A7EDF522-CC87-48CE-9901-F7AA9EAA4C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceTradersBlazor.Models", "..\SpaceTradersBlazor.Models\SpaceTradersBlazor.Models.csproj", "{3357710B-B34F-4B20-AF2E-93B83C1A3DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceTradersBlazor.SpaceTradersClient", "..\SpaceTradersBlazor.SpaceTradersClient\SpaceTradersBlazor.SpaceTradersClient.csproj", "{A593DB4A-CADD-45B7-8F76-7FCE2632FAF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7EDF522-CC87-48CE-9901-F7AA9EAA4C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EDF522-CC87-48CE-9901-F7AA9EAA4C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EDF522-CC87-48CE-9901-F7AA9EAA4C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EDF522-CC87-48CE-9901-F7AA9EAA4C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3357710B-B34F-4B20-AF2E-93B83C1A3DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3357710B-B34F-4B20-AF2E-93B83C1A3DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3357710B-B34F-4B20-AF2E-93B83C1A3DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3357710B-B34F-4B20-AF2E-93B83C1A3DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A593DB4A-CADD-45B7-8F76-7FCE2632FAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A593DB4A-CADD-45B7-8F76-7FCE2632FAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A593DB4A-CADD-45B7-8F76-7FCE2632FAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A593DB4A-CADD-45B7-8F76-7FCE2632FAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FADCFBF9-BC85-406A-BCA5-3C7575C94734}
+	EndGlobalSection
+EndGlobal
