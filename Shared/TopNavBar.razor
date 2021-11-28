@@ -1,9 +1,20 @@
-﻿<MudAppBar Color="Color.Dark" Fixed="false" Dense="false">
+﻿@using SpaceTradersBlazor.SpaceTradersClient
+@using SpaceTradersBlazor.Models
+@inject SpaceTradersClient _spaceTradersClient
+
+<MudAppBar Color="Color.Dark" Fixed="false" Dense="false">
     <MudSpacer/>
-    <MudButton Variant="Variant.Filled" Color="Color.Secondary">I am Clickable</MudButton>
+    <MudButton Variant="Variant.Filled" Color="Color.Secondary" @onclick="GetStatus">Check Status</MudButton>
 </MudAppBar>
+
+<p>@_status?.Status</p>
 
 
 @code {
+    private InitialContactResponse? _status;
 
+    private async Task GetStatus()
+    {
+        _status = await _spaceTradersClient.GetOnlineStatus();
+    }
 }
